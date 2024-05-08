@@ -1,0 +1,253 @@
+*{
+    margin:0px auto;
+    padding:0px;
+}
+header img{
+    width: 150px;
+    height: auto;
+}
+nav{
+    border-bottom: 2px solid teal;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+nav ul{
+    list-style: none;
+    padding: 10px 0px;
+    margin-left: 30px;
+}
+.homelogo{
+    width: 20px; height:auto; position:absolute; top:-17px; left:-20px
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+}
+nav ul li a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #004080;
+    /* màu xanh đen */
+}
+nav ul li ul.dropdown{
+    display: none;
+    position: absolute;
+    margin-left: 0px;
+    width: 200px;
+    background-color: #f8f8f8;
+    opacity: 90%;
+    border-radius: 5px;
+}
+nav ul li ul li{
+    display: block;
+    padding: 8px 5px;
+}
+nav ul li:hover ul.dropdown{
+    display: block;
+}
+nav ul li ul li:hover{
+    background-color: #e8e8e8;
+    /* màu ghi sáng */
+    border-bottom: 1px solid teal;
+}
+nav ul button{
+    color: #004080;
+    width: 80px;
+    height: 22px;
+    margin: 1px;
+    background-color: #f8f8f8;
+}
+nav ul :placeholder-shown{
+    width: 160px;
+    height: 20px;
+    margin: 1px;
+}
+*/
+footer{
+    width: 100%;
+    height: 100px;
+}
+div p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 2;
+}
+div a li {
+    text-decoration-line: none;
+}
+
+article .new_list .news_item {
+    width: 28% ;
+    padding: 12px;
+    float: left ;
+    border: 1px solid #ccc;
+    margin-right:  4%;
+}
+nav ul div{
+    float:right;
+    background-color: white;
+    height: 30px;   
+}
+.btn button{
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.btn button:hover{
+    background-color: black;
+    color: white;
+    scale: 1.05;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+p {
+    font-size: 16px;
+    line-height: 2.6;
+    color: #666;
+}
+img {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 20px;
+}
+.ongnoi{
+    margin: 0px 200px;
+    z-index: 1;
+    position: relative;
+}
+p:hover{
+    color: #1371D0;
+}
+h1:hover{
+    color: #1371D0;
+}
+.chaa1 .con1 img{
+    width: 250px;
+    cursor: pointer;
+}
+.chaa1 .con1 p{
+    margin-top: 10px;
+    margin-right: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+
+}
+.chaa1{
+    position: relative;
+    display: inline-block;
+    max-width:270px;
+    border-right: 1px solid lightgray;
+}
+.chaa2{
+    position: relative;
+    display: inline-block;
+    max-width: 570px;
+    border-right: 1px solid lightgray;
+    top: -70px;
+    left: 15px;
+}
+.chaa2 img{
+    width: 550px;
+    cursor: pointer;
+}
+.chaa2 .text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+.text h1,p{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.text p{
+    color: grey;
+    cursor: pointer;
+}
+.text h1{
+    margin-right: 20px;
+    cursor: pointer;
+    cursor: pointer;
+}
+.chaa3{
+    display: inline-block;
+    position: absolute;
+    max-width: 260px;
+    margin-left: 25px;
+    margin-top: 10px;
+    max-height: 500px;
+}
+.chaa3 .con1 p{
+    display: inline-block;
+    margin-right: 120px;
+    position: absolute;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+}
+.chaa3 .con1 img{
+    display: inline-block;
+    max-width: 120px;
+    margin-left: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.chaa3 .con2 p{
+    display: inline-block;
+    margin-right: 120px;
+    position: absolute;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+}
+.chaa3 .con2 img{
+    display: inline-block;
+    max-width: 120px;
+    margin-left: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.chaa3 .con3 p{
+    display: inline-block;
+    margin-right: 120px;
+    position: absolute;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+}
+.chaa3 .con3 img{
+    display: inline-block;
+    max-width: 120px;
+    margin-left: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+h1 a:hover{
+    color: #1371D0;
+}
