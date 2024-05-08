@@ -1,0 +1,99 @@
+*{
+    margin:0px auto;
+    padding:0px;
+}
+header img{
+    width: 150px;
+    height: auto;
+}
+nav{
+    border-bottom: 2px solid teal;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    padding: 10px 0px;
+    margin-left: 30px;
+}
+.homelogo{
+    width: 20px; height:auto; position:absolute; top:-17px; left:-20px
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+}
+nav ul li a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #004080;
+    /* màu xanh đen */
+}
+nav ul li ul.dropdown{
+    display: none;
+    position: absolute;
+    margin-left: 0px;
+    width: 200px;
+    background-color: #f8f8f8;
+}
+nav ul li ul li{
+    display: block;
+    padding: 8px 5px;
+}
+nav ul li:hover ul.dropdown{
+    display: block;
+}
+nav ul li ul li:hover{
+    background-color: #e8e8e8;
+    /* màu ghi sáng */
+    border-bottom: 1px solid teal;
+}
+nav ul button{
+    color: #004080;
+    width: 80px;
+    height: 22px;
+    margin: 1px;
+    background-color: #f8f8f8;
+}
+nav ul :placeholder-shown{
+    width: 160px;
+    height: 20px;
+    margin: 1px;
+}
+*/
+footer{
+    width: 100%;
+    height: 100px;
+}
+div p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 2;
+}
+div a li {
+    text-decoration-line: none;
+}
+
+article .new_list .news_item {
+    width: 28% ;
+    padding: 12px;
+    float: left ;
+    border: 1px solid #ccc;
+    margin-right:  4%;
+}
+nav ul div{
+    float:right;
+    background-color: white;
+    height: 30px;   
+}
+.btn button{
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.btn button:hover{
+    background-color: black;
+    color: white;
+    scale: 1.05;
+}
